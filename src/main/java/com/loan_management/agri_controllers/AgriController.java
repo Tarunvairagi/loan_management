@@ -11,5 +11,12 @@ public class AgriController {
 	public String message() {
 		return "project is complitly working";
 	}
+	
+	@GetMapping("/login")
+	public String loginUser() {
+		return "user login api is work on this method";
+	}
+
+
 
 }
