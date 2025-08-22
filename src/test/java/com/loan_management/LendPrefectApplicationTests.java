@@ -8,6 +8,9 @@ class LendPrefectApplicationTests {
 
 	@Test
 	void contextLoads() {
+		int a = 10;
+		int b = 20;
+		System.out.print("Hello world : " + a+b);
 	}
 
 }
