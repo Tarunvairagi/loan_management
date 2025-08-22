@@ -10,7 +10,10 @@ class LendPrefectApplicationTests {
 	void contextLoads() {
 		int a = 10;
 		int b = 20;
-		System.out.print("Hello world : " + a+b);
+		boolean isPresent = false;
+		if(!isPresent){
+			System.out.print("Hello world : " + a+b);
+		}
 	}
 
 }
